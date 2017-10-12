@@ -1,7 +1,29 @@
-# react-scripts
+# malexandre-react-scripts
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).<br>
-Please refer to its documentation:
+Use [create-react-app](https://github.com/facebookincubator/create-react-app) to bootstrap a new React project with the packages I use for each project.
 
-* [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+## Disclaimer
+
+This repo is not a fork of `create-react-app`. It's just a fork of `react-scripts` with modifications to the project template, packages & webpack configuration.
+
+## Setup
+
+```bash
+create-react-app my-app --scripts-version malexandre-react-scripts
+```
+
+## Features
+
+- Custom lint rules
+- CSS modules
+- react-router
+- react-toolbox
+- Sass
+
+## Author
+
+[Marc Alexandre](malexandre.fr)
+
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
